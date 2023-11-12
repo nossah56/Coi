@@ -1,5 +1,5 @@
 {
-  "name": "coi Telethon Source v1.3",
+  "name": "COi Telethon Source v1.3",
   "description": "1.3 V { @Yosr3456 }",
   "logo": "https://telegra.ph/file/9446ca7b48e18c10690c2.jpg",
   "keywords": ["plugin","modular","productivity"],
@@ -47,22 +47,8 @@
       "version": "12"
     }
   }],
-  "buildpacks": [{
-    "url": "https://github.com/iq-thon/heroku-buildpack-ffmpeg-latest" 
-  },{    
-    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
-  },{
-    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
-  },{
-    "url": "https://github.com/riganf/heroku-buildpack-p7zip"
-  },{
-    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
-  },{
-    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
-  },{
-    "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
-  },{
-    "url": "heroku/python"
-  }],
+  "buildpacks":   ,{    
+    "url":"https://github.com/iqthon-klanr/heroku-buildpack-ffmpeg-latest.git"
+  },
   "stack": "heroku-22"
 }
