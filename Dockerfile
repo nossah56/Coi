@@ -1,4 +1,4 @@
-FROM telethonArab/Arab:slim-buster
+FROM Coi SR/Coi:slim-buster
 
 RUN git clone https://github.com/telethonArab/Arab.git /root/Arab
 
