@@ -1,6 +1,6 @@
-FROM Coi SR/Coi:slim-buster
+FROM nossah56/Coi:slim-buster
 
-RUN git clone https://github.com/telethonArab/Arab.git /root/Arab
+RUN git clone https://github.com/nossah56/Coi /root/Arab
 
 WORKDIR /root/Arab
 
