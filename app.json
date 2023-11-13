@@ -8,35 +8,35 @@
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
-      "description": "ضع أسمك في التليجرام",
+      "description": "حط أسمك في التليجرام",
       "value": ""
     },
     "APP_ID": {
-      "description": "ضع الأيبي ايدي", 
+      "description": "حط الأيبي ايدي", 
       "value": ""
     },
     "API_HASH": {
-      "description": "ضع الأيبي هاش",
+      "description": "حط الأيبي هاش",
       "value": ""
     },
     "STRING_SESSION": {
-      "description": "ضع كود تيرمكس",
+      "description": "حط كود تيرمكس",
       "value": ""
     },
     "TG_BOT_USERNAME": {
-      "description": "ضع معرف بوتك بدون @",
+      "description": "حط معرف بوتك من غير @",
       "value": ""
     },
     "TG_BOT_TOKEN": {
-      "description": "ضع توكن بوتك",
+      "description": "حط توكن بوتك",
       "value": ""
     },
     "COMMAND_HAND_LER": {
-      "description": "اتركة كما هوة او ضع الأمر الذي تريده بدلا من النقطة",
+      "description": "حط رمز الاوامر بتاعك او سيبه",
       "value": "."
     },
     "TZ": {
-      "description": "ضع القاره / عاصمة بلدك ( اذا كنت لاتعرفه اتركة كما هوة )",
+      "description": "حط هنا القاره / عاصمة بلدك اذا كنت لاتعرفه ابحث عنه وضعه كما هوة )",
       "value": "Africa/Cairo",
       "required": false
     }
@@ -46,9 +46,23 @@
     "options": {
       "version": "12"
     }
+    }],
+  "buildpacks": [{
+    "url": "https://github.com/iq-thon/heroku-buildpack-ffmpeg-latest" 
+  },{    
+    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+  },{
+    "url": "https://github.com/riganf/heroku-buildpack-p7zip"
+  },{
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+  },{
+    "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
+  },{
+    "url": "heroku/python"
   }],
-  "buildpacks":   ,{    
-    "url":"https://github.com/iqthon-klanr/heroku-buildpack-ffmpeg-latest.git"
-  },
   "stack": "heroku-22"
 }
