@@ -15,8 +15,8 @@ LOGS = logging.getLogger("IQTHON")
 bot = iqthon
 StartTime = time.time()
 catversion = "7.6"
-if Config.UPSTREAM_REPO == "TelethonAr":
-    UPSTREAM_REPO_URL = "https://github.com/telethonArab/Arab"
+if Config.UPSTREAM_REPO == "Coi SR":
+    UPSTREAM_REPO_URL = "https://github.com/nossah56.git"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
 if Config.PRIVATE_GROUP_BOT_API_ID == 0:
