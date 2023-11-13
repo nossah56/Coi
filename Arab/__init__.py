@@ -3,7 +3,7 @@ import heroku3
 from sample_config import Config
 
 from .core.logger import logging
-from .core.session import iqthon
+from .core.session import sys
 from .sql_helper.globals import addgvar, delgvar, gvarstatus
 __version__ = "7.7"
 __license__ = "GNU Affero General Public License v3.0"
